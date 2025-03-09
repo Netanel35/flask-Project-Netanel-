@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📢 הודעות מהשרת</title>
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <h2>📢 הודעות אחרונות</h2>
+    <form id="messageForm">
+        <input type="text" id="message" required>
+        <button type="submit">שלח</button>
+    </form>
+    <div id="messages"></div>
+</body>
+</html>
